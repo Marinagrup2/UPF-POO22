@@ -1,1 +1,8 @@
-marina
+Q1: Hemos creado el readme, lo podemos editar
+Q2: Guardamos el fichero.
+Q3: El output te dice la diferencia entre lo que has añadido y lo que habia en el fichero sin modificar.  El status te informa que has modificado el fichero.
+Q4: El current status nos dice que hemos modificado el archivo para poder subirlo al repositorio.
+Q5: Solo hay uno, 1bf986.
+Q6: Te muestra la actualización que has hecho.
+Q7: El ultimo comando desaparece y queda el comando anterior.
+

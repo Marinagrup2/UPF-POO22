@@ -1,0 +1,7 @@
+Classes	    Atributos       Constructor      Métodos         Visibilidad  Report	Final
+                           y argumentos	   y argumentos	   	
+ 20%	     20%	     10%	     30%	       10%        10%	   100%			
+2	2	1	3	1	0,9	9,9
+
+El report bien realizado. solo falto detallar mejor la parte 3 ya que no se mencionan los 
+problemas y soluciones desarrolladas. La ejecución es correcta.

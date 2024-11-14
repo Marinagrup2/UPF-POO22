@@ -1,0 +1,21 @@
+Interfaces Nameable and Comparable 2p	
+Class Entity: 3p (should inherit from interfaces, declare abstract method update)	
+Class Agent: 3p (relatively straightforward translation of Java code)	
+Main method for testing: 2p	
+Final
+20%	30%	30%	20%	100%  penalización   Nota final
+2	2	1	0	5	0,7	3,5
+
+Clase Comparable y nameable correcto
+Clase Entity falta incluir la clase Nameable. El método update virtual void update()=0;
+Clase Agent en SetTarget en lugar de  Vec2D * dir = new Vec2D(target); era dir = new Vec2D(target); en update en lugar de 
+Vec2D * vector = new Vec2D(speed*(direction->getX()), speed*(direction->getY())); era Vec2D dv(speed * dir->getX(), speed * dir->getY()); y poner el & en pos->add(&vector. En los métodos targetReacher y isColliding pasa algo similiar a los comentarios anteriores y no se tenían que crear nuevas instancias de la clase Vec2D sino utilizar la ya existente, así como también utilizar el método substract de Vec2d. 
+bool targetReached() {
+		Vec2D dv(target);
+		dv.subtract(pos);
+		double dist = dv.length();
+		
+		return dist < radius;
+	}
+porque finalizar con un #endif _AGENT_ en lugar de solo #endif como el resto de clases. Lo mismo en Entity.
+Programa princpal no se ha creado. Se ha tenido problema en la implementación. Se penaliza por la ejecución.

@@ -1,0 +1,7 @@
+Nos ha surgido un problema al hacer la practica. Cuando estabamos realizando el main, al implementar la clase Agent hemos llamado a la función update y al hacer run nos daba un error en la clase VEC2D.hpp, concretamente en el double getY(). Pero no hemos encontrado donde estaba el fallo aunque todo lo demas funcionaba bien. Por tanto no hemos podido comprobar la funcionalidad del Agent en el main.
+
+
+
+// getters
+	double getX() { return x; }
+	double getY() { return y; } //linia donde nos sale el Segmentation fault
